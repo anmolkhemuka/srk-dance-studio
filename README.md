@@ -1,6 +1,6 @@
 # SRK Dance Studio
 
-A responsive static website for SRK Dance Studio in Seoni. It uses plain HTML and CSS with a tiny inline script for the footer year.
+A responsive static website for SRK Dance Studio in Seoni. It uses plain HTML, CSS, and a small inline script for scroll reveals, image parallax, and the footer year. Motion respects reduced-motion preferences.
 
 ## Preview locally
 
@@ -19,5 +19,4 @@ The included `.github/workflows/pages.yml` deploys the site whenever changes are
 ## Before launch
 
 - WhatsApp links are set to `https://wa.me/918827658424` using the supplied number `8827658424` and India country code.
-- Replace the CSS artwork placeholders in the hero, about, and gallery with locally stored, studio-owned photos for the strongest personal result. Keep image files in `assets/` and use relative paths. Get permission from people pictured before publishing.
-- The current gallery tiles are deliberate visual placeholders, not photographs. No external image is hotlinked.
+- The hero, About panel, and gallery use locally stored, compressed photos in `assets/photos/`; no external photo URLs are used. Replace these files and update `index.html` if the studio selects different images. The photos were supplied for this site by the owner.
